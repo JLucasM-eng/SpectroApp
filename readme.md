@@ -26,3 +26,17 @@ baseia-se na base de código do famoso software Praat, que implementa uma varied
 de algoritmos de processamento de fala e fonética. Muitas dessas funções podem ser acessadas
 através do Parselmouth. Para isso, Parselmouth utiliza a biblioteca pybind11 , o que permite
 expor a funcionalidade C/C++ do Praat como uma interface Python.
+
+## Bibliotecas e pacotes necessários
+
+No arquivo *requirements.txt* você encontrará todas as bibliotecas utilizadas nesta aplicação. Realize previamente a instalação destas bibliotecas, se possivel atentando-se também para a versão apresentada.
+
+## Executando o projeto
+
+Após o clone do projeto, a partir da pasta raiz da aplicação, execute o script python *app.py*, ou execute o seguinte comando no terminal: *python -u "caminhoParaProjeto\...\app.py".
+O retorno deste comando será um comando *streamlit run*. Em seguida você deverá executar este comando apresentado no terminal.
+
+Ao executar o *streamlit run "...\app.py"*, o Streamlit automaticamente irá executar o seu projeto em um servidor local e informar o endereço para acesso a nivel de desenvolvimento.
+
+PS. Todos os prints ou comandos semelhantes poderam ser vistos pelo terminal onde está rodando o servidor Streamlit.
+
