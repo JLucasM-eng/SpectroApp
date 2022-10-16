@@ -23,6 +23,7 @@ if "pitch.ceiling" not in st.session_state:
 
 
 def draw_spectrogram(spectrogram,dynamic_range=st.session_state['dynamic_range']):
+
     fig = plt.figure(figsize=(16,7))
     X, Y = spectrogram.x_grid(), spectrogram.y_grid()
     sg_db = 10 * np.log10(spectrogram.values)
